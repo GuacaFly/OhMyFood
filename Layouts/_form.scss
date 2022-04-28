@@ -1,1 +1,211 @@
+.logo {
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.location {
+    text-align: center;
+    color: rgb(21, 21, 21);
+}
+
+.header-background {
+    padding-top: 5%;
+    background-color: white;
+    height: 80px;
+    display: block;
+    box-shadow: 0px 1px 15px rgb(169, 169, 169);
+}
+
+.reservation-background {
+    display: block;
+    background-color: rgb(248, 248, 248);
+    height: 370px;
+}
+
+.reserver-menu {
+    max-width: 70%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.decouvrez-menu {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fonctionnement {
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    height: 480px;
+
+}
+
+.title-fonctionnement {
+    text-align: center;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.fonctionnement-list {
+    display: block;
+    width: 500px;
+    max-height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restaurants {
+    background-color: rgb(248, 248, 248);
+    display: inline-block;
+    width: 100%;
+    height: 1700px;
+}
+
+.title-restaurants {
+    text-align: center;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.pic-la-palette-du-gout {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.la-palette-du-gout {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgb(219, 219, 219);
+}
+
+.restaurant-title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    padding-left: 20px;
+}
+
+.restaurant-location {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.pic-la-note-enchantee {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.la-note-enchantee {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgb(219, 219, 219);
+}
+
+.cards-padding {
+    padding-top: 25px;
+}
+
+.pic-a-la-francaise {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.a-la-francaise {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgb(219, 219, 219);
+}
+
+.pic-le-delice-des-sens {
+    height: 250px;
+    width: 500px;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.le-delice-des-sens {
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgb(219, 219, 219);
+}
+
+.logo-footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 300px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 150px;
+    height: auto;
+    color: white;
+}
+
+.footer-background {
+    background-color: rgb(59, 59, 59);
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+}
+
+.footer-links {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 200px;
+    margin-top: 20px;
+    width: 250px;
+    height: auto;
+}
