@@ -1,32 +1,52 @@
 .explorer-button {
-    background-color: $colour-primary;
-    height: 70px;
-    width: 300px;
-    border-radius: 40px;
+    background: linear-gradient(38deg, #9356dc, #ff79da);
+    background-size: 400% 400%;
+    -webkit-animation: Button-gradian 6s ease infinite;
+    -moz-animation: Button-gradian 6s ease infinite;
+    -o-animation: Button-gradian 6s ease infinite;
+    animation: Button-gradian 6s ease infinite;
+    height: 140px;
+    width: 600px;
+    border-radius: 90px;
     border-style: none;
     box-shadow: 0px 5px 10px rgb(164, 164, 164);
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .fonctionnement-buttons {
-    width: 500px;
-    height: 70px;
-    margin-bottom: 30px;
+    width: 850px;
+    height: 150px;
+    margin-bottom: 50px;
     border-radius: 25px;
     border-style: none;
     background-color: rgb(248, 248, 248);
     box-shadow: 0px 5px 10px rgb(219, 219, 219);
+    transition-property: background-color;
+    transition-duration: 500ms;
+        .fonctionnement-icons {
+        color: grey;
+        float: left;
+        margin-left: 110px;
+        .fonctionnement-buttons .fonctionnement-icons {
+            display: none;
+            &:active {
+                display: none;
+            }
+        }
+    }
 }
 
-.fonctionnement-icons {
-    color: grey;
+.fonctionnement-button-text {
     float: left;
-    margin-left: 50px;
+    padding-left: 100px;
 }
 
 .heart {
     color: grey;
     float: right;
     margin-right: 30px;
-    font-size: 30px;
+    font-size: 90px;
     margin-top: 30px;
 }

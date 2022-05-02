@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=mixins.css.map */
+@-webkit-keyframes Button-gradian {
+  0% {
+    background-position: 84% 0%;
+  }
+  50% {
+    background-position: 17% 100%;
+  }
+  100% {
+    background-position: 84% 0%;
+  }
+}
+
+@keyframes Button-gradian {
+  0% {
+    background-position: 84% 0%;
+  }
+  50% {
+    background-position: 17% 100%;
+  }
+  100% {
+    background-position: 84% 0%;
+  }
+}
+/*# sourceMappingURL=mixins.css.map */
