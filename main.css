@@ -51,6 +51,7 @@ h3 {
 .fonctionnement-buttons {
   font-size: 40px;
   font-weight: 500;
+  color: black;
 }
 
 h4 {
@@ -79,6 +80,19 @@ a {
 .new {
   font-size: 42px;
   color: green;
+}
+
+.retour {
+  color: black;
+}
+
+.menu-title {
+  font-family: 'Shrikhand', cursive;
+}
+
+.price {
+  font-size: 42px;
+  color: black;
 }
 
 .explorer-button {
@@ -116,20 +130,22 @@ a {
 .fonctionnement-buttons .fonctionnement-icons {
   color: grey;
   float: left;
-  margin-left: 110px;
+  margin-left: 70px;
+  vertical-align: baseline;
 }
 
-.fonctionnement-buttons .fonctionnement-icons .fonctionnement-buttons .fonctionnement-icons {
-  display: none;
+.fonctionnement-buttons:hover {
+  background-color: #d7cdfd;
 }
 
-.fonctionnement-buttons .fonctionnement-icons .fonctionnement-buttons .fonctionnement-icons:active {
-  display: none;
+.fonctionnement-buttons:hover .fonctionnement-icons {
+  color: #9356dc;
 }
 
 .fonctionnement-button-text {
   float: left;
   padding-left: 100px;
+  vertical-align: baseline;
 }
 
 .heart {
@@ -138,6 +154,47 @@ a {
   margin-right: 30px;
   font-size: 90px;
   margin-top: 30px;
+}
+
+.back-arrow {
+  float: inline-start;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  font-size: 50px;
+}
+
+.btn-plats {
+  background-color: white;
+  border-radius: 50px;
+  width: 92%;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  line-height: 5px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.numbers {
+  float: left;
+  margin-left: -30px;
+  background-color: #9356DC;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 100%;
+}
+
+.commander-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .logo {
@@ -385,6 +442,8 @@ nav {
   width: 400px;
   height: auto;
   color: white;
+  font-size: 50px;
+  font-family: 'Shrikhand', cursive;
 }
 
 .footer-background {
@@ -412,6 +471,62 @@ nav {
   padding: 10px;
   border-radius: 5px;
   background-color: #99E2D0;
+}
+
+.a-la-francaise-menu-pic {
+  width: 100%;
+  height: auto;
+  float: inline-start;
+}
+
+.menu-background {
+  float: left;
+  position: absolute;
+  top: 700px;
+  width: 100%;
+  height: 3300px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #eeeeee;
+}
+
+.menu-title {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.heart-menu {
+  position: absolute;
+  right: 100px;
+  top: 80px;
+}
+
+.categories {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.price {
+  float: right;
+  margin-right: 50px;
+  font-weight: 500;
+}
+
+.categories-underline {
+  -webkit-text-decoration: underline #99E2D0;
+          text-decoration: underline #99E2D0;
+  text-decoration-thickness: 10px;
+  text-underline-offset: 20px;
+}
+
+.footer-background-menu {
+  background-color: #3b3b3b;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  padding-top: 3150px;
 }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */

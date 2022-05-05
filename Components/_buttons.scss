@@ -28,19 +28,22 @@
         .fonctionnement-icons {
         color: grey;
         float: left;
-        margin-left: 110px;
-        .fonctionnement-buttons .fonctionnement-icons {
-            display: none;
-            &:active {
-                display: none;
+        margin-left: 70px;
+        vertical-align: baseline;
             }
         }
+
+.fonctionnement-buttons:hover {
+    background-color: rgb(215, 205, 253);
+    .fonctionnement-icons {
+        color: #9356dc;
     }
 }
 
 .fonctionnement-button-text {
     float: left;
     padding-left: 100px;
+    vertical-align: baseline;
 }
 
 .heart {
@@ -49,4 +52,45 @@
     margin-right: 30px;
     font-size: 90px;
     margin-top: 30px;
+}
+
+.back-arrow {
+    float: inline-start;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 50px;
+}
+
+.btn-plats {
+    background-color: white;
+    border-radius: 50px;
+    width: 92%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    line-height: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.numbers {
+    float: left;
+    margin-left: -30px;
+    background-color: $colour-primary;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 100%;
+}
+
+.commander-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
