@@ -46,12 +46,25 @@
     vertical-align: baseline;
 }
 
-.heart {
-    color: grey;
+.heart-main {
     float: right;
     margin-right: 30px;
     font-size: 90px;
     margin-top: 30px;
+}
+
+.heart {
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #000;
+    border-width: 10px;
+    transition-property: color;
+    transition-duration: 1s;
+    transition: all 330ms ease-in-out;
+        &:hover{
+            color: rgb(168, 0, 62);
+            cursor: pointer;
+            transform: none;
+        }
 }
 
 .back-arrow {

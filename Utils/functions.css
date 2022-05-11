@@ -1,1 +1,54 @@
-/* No CSS *//*# sourceMappingURL=functions.css.map */
+@-webkit-keyframes appairing {
+  0% {
+    opacity: 0%;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  10% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes appairing {
+  0% {
+    opacity: 0%;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  10% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes spinner-background {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes spinner-background {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+/*# sourceMappingURL=functions.css.map */

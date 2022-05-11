@@ -1,3 +1,57 @@
+@-webkit-keyframes appairing {
+  0% {
+    opacity: 0%;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  10% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes appairing {
+  0% {
+    opacity: 0%;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0);
+  }
+  10% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@-webkit-keyframes spinner-background {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes spinner-background {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
 @-webkit-keyframes Button-gradian {
   0% {
     background-position: 84% 0%;
@@ -19,6 +73,72 @@
   }
   100% {
     background-position: 84% 0%;
+  }
+}
+
+.load {
+  width: 30vh;
+  height: 22.5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.load__bar {
+  background-color: #9356DC;
+  height: 100%;
+  width: 3vh;
+  -webkit-animation: bars 1000ms backwards infinite;
+          animation: bars 1000ms backwards infinite;
+}
+
+.load__bar--1 {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.load__bar--2 {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+
+.load__bar--3 {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.load__bar--4 {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+
+.load__bar--5 {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+
+@-webkit-keyframes bars {
+  0% {
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+}
+
+@keyframes bars {
+  0% {
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+  }
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
   }
 }
 
@@ -148,12 +268,30 @@ a {
   vertical-align: baseline;
 }
 
-.heart {
-  color: grey;
+.heart-main {
   float: right;
   margin-right: 30px;
   font-size: 90px;
   margin-top: 30px;
+}
+
+.heart {
+  color: white;
+  text-shadow: 0 0 10px #000;
+  border-width: 10px;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition: all 330ms ease-in-out;
+  transition: all 330ms ease-in-out;
+}
+
+.heart:hover {
+  color: #a8003e;
+  cursor: pointer;
+  -webkit-transform: none;
+          transform: none;
 }
 
 .back-arrow {
@@ -305,15 +443,6 @@ nav {
           transition-duration: 500ms;
 }
 
-.la-palette-du-gout:hover {
-  cursor: pointer;
-  scale: 103%;
-}
-
-.la-palette-du-gout:hover .new {
-  display: none;
-}
-
 .restaurant-title {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -355,15 +484,6 @@ nav {
           transition-duration: 500ms;
 }
 
-.la-note-enchantee:hover {
-  cursor: pointer;
-  scale: 103%;
-}
-
-.la-note-enchantee:hover .new {
-  display: none;
-}
-
 .cards-padding {
   padding-top: 40px;
 }
@@ -395,11 +515,6 @@ nav {
           transition-duration: 500ms;
 }
 
-.a-la-francaise:hover {
-  cursor: pointer;
-  scale: 103%;
-}
-
 .pic-le-delice-des-sens {
   height: 450px;
   width: 900px;
@@ -425,11 +540,6 @@ nav {
   transition-property: scale;
   -webkit-transition-duration: 500ms;
           transition-duration: 500ms;
-}
-
-.le-delice-des-sens:hover {
-  cursor: pointer;
-  scale: 103%;
 }
 
 .logo-footer {
@@ -515,10 +625,9 @@ nav {
 }
 
 .categories-underline {
-  -webkit-text-decoration: underline #99E2D0;
-          text-decoration: underline #99E2D0;
-  text-decoration-thickness: 10px;
-  text-underline-offset: 20px;
+  background-color: #99E2D0;
+  height: 10px;
+  width: 112px;
 }
 
 .footer-background-menu {
@@ -527,6 +636,58 @@ nav {
   width: 100%;
   height: 600px;
   padding-top: 3150px;
+}
+
+.btn-plats-1 {
+  opacity: 0%;
+  -webkit-animation: 1500ms ease-in-out 1000ms 1 appairing;
+          animation: 1500ms ease-in-out 1000ms 1 appairing;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+.btn-plats-2 {
+  opacity: 0%;
+  -webkit-animation: 2500ms ease-in-out 1500ms 1 appairing;
+          animation: 2500ms ease-in-out 1500ms 1 appairing;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+.btn-plats-3 {
+  opacity: 0%;
+  -webkit-animation: 3000ms ease-in-out 2000ms 1 appairing;
+          animation: 3000ms ease-in-out 2000ms 1 appairing;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-transform-origin: 0% 100%;
+          transform-origin: 0% 100%;
+}
+
+.spinner-background {
+  -webkit-animation: 1s ease-in-out 3s 1 spinner-background;
+          animation: 1s ease-in-out 3s 1 spinner-background;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  opacity: 0%;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50%;
+  width: 50%;
 }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
