@@ -311,9 +311,81 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  line-height: 5px;
   padding-top: 20px;
   padding-left: 20px;
+}
+
+.btn-plats:hover {
+  cursor: pointer;
+}
+
+.btn-plats:hover .green-ok {
+  width: 20%;
+}
+
+.btn-plats:hover .fa-circle-check {
+  opacity: 100%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.btn-plats:hover .description-menus {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 500px;
+  height: 50px;
+}
+
+.btn-plats:active {
+  cursor: pointer;
+}
+
+.btn-plats:active .green-ok {
+  width: 20%;
+}
+
+.btn-plats:active .fa-circle-check {
+  opacity: 100%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.btn-plats:active .description-menus {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 500px;
+  height: 50px;
+}
+
+.green-ok {
+  background-color: #99E2D0;
+  width: 0%;
+  height: 220px;
+  float: right;
+  margin-top: -140px;
+  margin-right: 0px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: width;
+  transition-property: width;
+  overflow-x: hidden;
+}
+
+.fa-circle-check {
+  color: white;
+  font-size: 80px;
+  margin-top: 70px;
+  margin-left: 30%;
+  opacity: 0%;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-property: opacity transform;
+  transition-property: opacity transform;
+  overflow-x: hidden;
 }
 
 .numbers {
@@ -602,9 +674,26 @@ nav {
   background-color: #eeeeee;
 }
 
+.menu-background-2 {
+  float: left;
+  position: absolute;
+  top: 700px;
+  width: 100%;
+  height: 3500px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: #eeeeee;
+}
+
 .menu-title {
   margin-top: 80px;
   margin-left: 100px;
+}
+
+.btn-menu-title {
+  margin-top: 15px;
 }
 
 .heart-menu {
@@ -622,6 +711,7 @@ nav {
   float: right;
   margin-right: 50px;
   font-weight: 500;
+  margin-top: -50px;
 }
 
 .categories-underline {
@@ -636,6 +726,14 @@ nav {
   width: 100%;
   height: 600px;
   padding-top: 3150px;
+}
+
+.footer-background-menu-2 {
+  background-color: #3b3b3b;
+  display: inline-block;
+  width: 100%;
+  height: 600px;
+  padding-top: 2800px;
 }
 
 .btn-plats-1 {
@@ -688,6 +786,13 @@ nav {
   margin-right: auto;
   margin-top: 50%;
   width: 50%;
+}
+
+.description-menus {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 700px;
 }
 
 /*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */

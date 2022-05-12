@@ -84,9 +84,69 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    line-height: 5px;
     padding-top: 20px;
     padding-left: 20px;
+}
+
+    .btn-plats:hover {
+        cursor: pointer;
+        .green-ok {
+            width: 20%;
+        }
+        .fa-circle-check {
+            opacity: 100%;
+            transform: rotate(360deg)
+        }
+        .description-menus {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 500px;
+            height: 50px;
+        }
+    }
+
+    .btn-plats:active {
+        cursor: pointer;
+        .green-ok {
+            width: 20%;
+        }
+        .fa-circle-check {
+            opacity: 100%;
+            transform: rotate(360deg)
+        }
+        .description-menus {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            width: 500px;
+            height: 50px;
+        }
+    }
+
+.green-ok {
+    background-color: $colour-accent;
+    width: 0%;
+    height: 220px;
+    float: right;
+    margin-top: -140px;
+    margin-right: 0px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    transition-duration: 500ms;
+    transition-property: width;
+    overflow-x: hidden;
+}
+
+.fa-circle-check {
+    color: white;
+    font-size: 80px;
+    margin-top: 70px;
+    margin-left: 30%;
+    opacity: 0%;
+    transition-duration: 500ms;
+    transition-property: opacity transform;
+    overflow-x: hidden;
 }
 
 .numbers {
