@@ -61,9 +61,12 @@
     transition-duration: 1s;
     transition: all 330ms ease-in-out;
         &:hover{
-            color: rgb(168, 0, 62);
             cursor: pointer;
             transform: none;
+            background-image: linear-gradient(120deg, $colour-primary, rgb(232, 129, 255));
+            background-clip: text;
+            color: transparent;
+            text-shadow: none
         }
 }
 

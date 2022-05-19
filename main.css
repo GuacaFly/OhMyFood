@@ -288,10 +288,13 @@ a {
 }
 
 .heart:hover {
-  color: #a8003e;
   cursor: pointer;
   -webkit-transform: none;
           transform: none;
+  background-image: linear-gradient(120deg, #9356DC, #e881ff);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
 }
 
 .back-arrow {
